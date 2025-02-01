@@ -1,8 +1,12 @@
-A Python script that creates the project structure (without Docker files) and writes the basic file contents for both the FastAPI backend and the ReactJS frontend.
+# Project Template Generator
 
->> python project_template_gen.py
+A Python script that creates a project structure for a web application with a FastAPI backend and a ReactJS frontend. This script generates the necessary folder structure and basic file contents for both parts of the application, **without Docker files**.
 
-It will create a folder called prj_tmpl with the following structure:
+## Overview
+
+Running the script will generate a folder named `prj_tmpl` with the following structure:
+
+```plaintext
 prj_tmpl/
 ├── backend/
 │   ├── app/
