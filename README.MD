@@ -6,31 +6,6 @@ A Python script that creates a project structure for a web application with a Fa
 
 Running the script will generate a folder named `prj_tmpl` with the following structure:
 
-```plaintext
-prj_tmpl/
-├── backend/
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── main.py
-│   │   ├── routers/
-│   │   │   ├── __init__.py
-│   │   │   └── dashboard.py
-│   │   ├── models/
-│   │   │   └── user.py
-│   │   └── schemas/
-│   │       └── user.py
-│   └── requirements.txt
-└── frontend/
-    ├── public/
-    │   └── index.html
-    ├── src/
-    │   ├── App.js
-    │   ├── index.js
-    │   └── components/
-    │       └── Dashboard.js
-    └── package.json
-
-
 Features
 FastAPI Backend:
 
@@ -58,8 +33,27 @@ The script will create a folder called prj_tmpl in the current directory with th
 Customization
 You can customize the generated project template by editing the project_template_gen.py script. Modify the file contents or add additional files and directories as needed for your project.
 
-Contributing
-Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request on GitHub.
 
-License
-This project is licensed under the MIT License.
+```plaintext
+prj_tmpl/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── routers/
+│   │   │   ├── __init__.py
+│   │   │   └── dashboard.py
+│   │   ├── models/
+│   │   │   └── user.py
+│   │   └── schemas/
+│   │       └── user.py
+│   └── requirements.txt
+└── frontend/
+    ├── public/
+    │   └── index.html
+    ├── src/
+    │   ├── App.js
+    │   ├── index.js
+    │   └── components/
+    │       └── Dashboard.js
+    └── package.json
