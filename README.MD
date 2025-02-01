@@ -29,3 +29,37 @@ prj_tmpl/
     │   └── components/
     │       └── Dashboard.js
     └── package.json
+
+
+Features
+FastAPI Backend:
+
+backend/app/main.py: Entry point for the FastAPI application.
+Routers: Modular routing is implemented in backend/app/routers/.
+Models and Schemas: Basic user model and schema files are provided.
+requirements.txt: Lists all required Python packages for the backend.
+ReactJS Frontend:
+
+Public Folder: Contains index.html as the main HTML file.
+Source Folder: Contains the main React component (App.js), the entry point (index.js), and a sample component (Dashboard.js).
+package.json: Contains metadata and dependencies for the React application.
+Usage
+Run the Script
+
+Open your terminal and execute:
+
+bash
+Copy
+python project_template_gen.py
+Generated Output
+
+The script will create a folder called prj_tmpl in the current directory with the structure outlined above. Each file will be populated with basic boilerplate code to get you started.
+
+Customization
+You can customize the generated project template by editing the project_template_gen.py script. Modify the file contents or add additional files and directories as needed for your project.
+
+Contributing
+Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request on GitHub.
+
+License
+This project is licensed under the MIT License.
