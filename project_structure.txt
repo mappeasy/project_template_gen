@@ -1,0 +1,22 @@
+prj_tmpl/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── routers/
+│   │   │   ├── __init__.py
+│   │   │   └── dashboard.py
+│   │   ├── models/
+│   │   │   └── user.py
+│   │   └── schemas/
+│   │       └── user.py
+│   └── requirements.txt
+└── frontend/
+    ├── public/
+    │   └── index.html
+    ├── src/
+    │   ├── App.js
+    │   ├── index.js
+    │   └── components/
+    │       └── Dashboard.js
+    └── package.json
